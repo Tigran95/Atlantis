@@ -4,7 +4,19 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/StartScene.unity
+    guid: 9f7675018e866574f9d6a68c71ef27c0
+  - enabled: 1
+    path: Assets/Scenes/ChooseScenarioScene.unity
+    guid: 63550016afa76a24b8695feaa1aa10ec
+  - enabled: 1
+    path: Assets/Scenes/MarkerModeScene.unity
+    guid: 255d9db344180cc45a3b3d3441310425
+  - enabled: 1
+    path: Assets/Scenes/ARUser.unity
+    guid: e09b6153519d3c84395049319f9f2782
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 90d9494ff736df64aa545c64f0d5da72, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 486ee9a0267b777488839c951b3d7ad1, type: 2}
